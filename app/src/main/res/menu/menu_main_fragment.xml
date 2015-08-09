@@ -1,11 +1,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Defnimos y asociamos el elemento del menu al ShareActionProvider-->
     <item
         android:id="@+id/menu_item_share"
-        app:showAsAction="ifRoom"
+        app:showAsAction="always"
         android:title="Share"
-        android:actionProviderClass=
-            "android.widget.ShareActionProvider" />
+        app:actionProviderClass=
+            "android.support.v7.widget.ShareActionProvider" />
 
 
 </menu>
